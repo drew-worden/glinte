@@ -1,1 +1,1 @@
-<h1>Worden UI - Svelte</h1>
+<h1>Glinte</h1>
