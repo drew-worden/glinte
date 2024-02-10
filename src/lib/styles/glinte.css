@@ -1,3 +1,11 @@
+/* Imports */
+@import 'colors.css';
+@import 'fonts.css';
+@import 'screens.css';
+@import 'spacing.css';
+@import 'borders.css';
+@import 'timing.css';
+
 /* Global */
 * {
 	margin: 0;
@@ -14,17 +22,5 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-/* Font declarations */
-@font-face {
-	font-family: geist;
-	src: url('../assets/geist.woff2');
-	font-family: 100 900;
-}
-
-@font-face {
-	font-family: geist-mono;
-	src: url('../assets/geist-mono.woff2');
-	font-family: 100 900;
+	background-color: var(--black);
 }

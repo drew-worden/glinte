@@ -1,7 +1,7 @@
 {
 	"name": "glinte",
 	"description": "Beautifully crafted and customizable Svelte components for the modern web application.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",

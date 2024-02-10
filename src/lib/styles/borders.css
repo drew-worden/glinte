@@ -1,0 +1,11 @@
+/* Border radius sizes */
+:root {
+	--br-1-7: 2px;
+	--br-2-7: 4px;
+	--br-3-7: 6px;
+	--br-4-7: 8px;
+	--br-5-7: 12px;
+	--br-6-7: 16px;
+	--br-7-7: 24px;
+	--br-full: 9999px;
+}

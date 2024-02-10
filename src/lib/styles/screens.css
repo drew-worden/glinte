@@ -1,0 +1,8 @@
+/* Screen Sizes */
+:root {
+	--screen-1-5: 640px;
+	--screen-2-5: 768px;
+	--screen-3-5: 1024px;
+	--screen-4-5: 1280px;
+	--screen-5-5: 1536px;
+}

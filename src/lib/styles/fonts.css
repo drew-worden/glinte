@@ -1,0 +1,124 @@
+/* Fonts declarations */
+@font-face {
+	font-family: geist;
+	src: url('../assets/geist.woff2');
+	font-family: 100 900;
+}
+
+@font-face {
+	font-family: geist-mono;
+	src: url('../assets/geist-mono.woff2');
+	font-family: 100 900;
+}
+
+/* Font families */
+.geist {
+	font-family: geist;
+}
+
+.geist-mono {
+	font-family: geist-mono;
+}
+
+/* Font weights */
+.fw-1-9 {
+	font-weight: 100;
+}
+
+.fw-2-9 {
+	font-weight: 200;
+}
+
+.fw-3-9 {
+	font-weight: 300;
+}
+
+.fw-4-9 {
+	font-weight: 400;
+}
+
+.fw-5-9 {
+	font-weight: 500;
+}
+
+.fw-6-9 {
+	font-weight: 600;
+}
+
+.fw-7-9 {
+	font-weight: 700;
+}
+
+.fw-8-9 {
+	font-weight: 800;
+}
+
+.fw-9-9 {
+	font-weight: 900;
+}
+
+/* Font sizes */
+.fs-1-13 {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.fs-2-13 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.fs-3-13 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.fs-4-13 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.fs-5-13 {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.fs-6-13 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.fs-7-13 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.fs-8-13 {
+	font-size: 36px;
+	line-height: 40px;
+}
+
+.fs-9-13 {
+	font-size: 60px;
+	line-height: 1;
+}
+
+.fs-10-13 {
+	font-size: 72px;
+	line-height: 1;
+}
+
+.fs-11-13 {
+	font-size: 96px;
+	line-height: 1;
+}
+
+.fs-12-13 {
+	font-size: 128px;
+	line-height: 1;
+}
+
+.fs-13-13 {
+	font-size: px;
+	line-height: 1;
+}

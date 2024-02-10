@@ -1,0 +1,9 @@
+/* Timing */
+:root {
+	--time-1-6: 0.1s;
+	--time-2-6: 0.25s;
+	--time-3-6: 0.5s;
+	--time-4-6: 0.75s;
+	--time-5-6: 1s;
+	--time-6-6: 2s;
+}
