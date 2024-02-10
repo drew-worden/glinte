@@ -1,124 +1,212 @@
 /* Fonts declarations */
 @font-face {
 	font-family: geist;
-	src: url('../assets/geist.woff2');
+	src: url("../assets/geist.woff2");
 	font-family: 100 900;
 }
 
 @font-face {
 	font-family: geist-mono;
-	src: url('../assets/geist-mono.woff2');
+	src: url("../assets/geist-mono.woff2");
 	font-family: 100 900;
 }
 
-/* Font families */
+/* Font variables */
+:root {
+	/* Font families */
+	--geist: geist;
+	--geist-mono: geist-mono;
+
+	/* Font weights */
+	--fw-1-9: 100;
+	--fw-2-9: 200;
+	--fw-3-9: 300;
+	--fw-4-9: 400;
+	--fw-5-9: 500;
+	--fw-6-9: 600;
+	--fw-7-9: 700;
+	--fw-8-9: 800;
+	--fw-9-9: 900;
+
+	/* Font sizes */
+	--fs-1-13: 12px;
+	--fs-2-13: 14px;
+	--fs-3-13: 16px;
+	--fs-4-13: 18px;
+	--fs-5-13: 20px;
+	--fs-6-13: 24px;
+	--fs-7-13: 30px;
+	--fs-8-13: 36px;
+	--fs-9-13: 48px;
+	--fs-10-13: 60px;
+	--fs-11-13: 72px;
+	--fs-12-13: 96px;
+	--fs-13-13: 128px;
+
+	/* Line heights */
+	--lh-1-13: 16px;
+	--lh-2-13: 20px;
+	--lh-3-13: 24px;
+	--lh-4-13: 28px;
+	--lh-5-13: 28px;
+	--lh-6-13: 32px;
+	--lh-7-13: 36px;
+	--lh-8-13: 30px;
+	--lh-9-13: 1;
+	--lh-10-13: 1;
+	--lh-11-13: 1;
+	--lh-12-13: 1;
+	--lh-13-13: 1;
+}
+
+/* Font family classes */
 .geist {
-	font-family: geist;
+	font-family: var(--geist);
 }
 
 .geist-mono {
-	font-family: geist-mono;
+	font-family: var(--geist-mono);
 }
 
-/* Font weights */
+/* Font weight classes */
 .fw-1-9 {
-	font-weight: 100;
+	font-weight: var(--fw-1-9);
 }
 
 .fw-2-9 {
-	font-weight: 200;
+	font-weight: var(--fw-2-9);
 }
 
 .fw-3-9 {
-	font-weight: 300;
+	font-weight: var(--fw-3-9);
 }
 
 .fw-4-9 {
-	font-weight: 400;
+	font-weight: var(--fw-4-9);
 }
 
 .fw-5-9 {
-	font-weight: 500;
+	font-weight: var(--fw-5-9);
 }
 
 .fw-6-9 {
-	font-weight: 600;
+	font-weight: var(--fw-6-9);
 }
 
 .fw-7-9 {
-	font-weight: 700;
+	font-weight: var(--fw-7-9);
 }
 
 .fw-8-9 {
-	font-weight: 800;
+	font-weight: var(--fw-8-9);
 }
 
 .fw-9-9 {
-	font-weight: 900;
+	font-weight: var(--fw-9-9);
 }
 
-/* Font sizes */
+/* Font size classes */
 .fs-1-13 {
-	font-size: 12px;
-	line-height: 16px;
+	font-size: var(--fs-1-13);
 }
 
 .fs-2-13 {
-	font-size: 14px;
-	line-height: 20px;
+	font-size: var(--fs-2-13);
 }
 
 .fs-3-13 {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: var(--fs-3-13);
 }
 
 .fs-4-13 {
-	font-size: 18px;
-	line-height: 28px;
+	font-size: var(--fs-4-13);
 }
 
 .fs-5-13 {
-	font-size: 20px;
-	line-height: 28px;
+	font-size: var(--fs-5-13);
 }
 
 .fs-6-13 {
-	font-size: 24px;
-	line-height: 32px;
+	font-size: var(--fs-6-13);
 }
 
 .fs-7-13 {
-	font-size: 30px;
-	line-height: 36px;
+	font-size: var(--fs-7-13);
 }
 
 .fs-8-13 {
-	font-size: 36px;
-	line-height: 40px;
+	font-size: var(--fs-8-13);
 }
 
 .fs-9-13 {
-	font-size: 60px;
-	line-height: 1;
+	font-size: var(--fs-9-13);
 }
 
 .fs-10-13 {
-	font-size: 72px;
-	line-height: 1;
+	font-size: var(--fs-10-13);
 }
 
 .fs-11-13 {
-	font-size: 96px;
-	line-height: 1;
+	font-size: var(--fs-11-13);
 }
 
 .fs-12-13 {
-	font-size: 128px;
-	line-height: 1;
+	font-size: var(--fs-12-13);
 }
 
 .fs-13-13 {
-	font-size: px;
-	line-height: 1;
+	font-size: var(--fs-13-13);
+}
+
+/* Line height classes */
+.lh-1-13 {
+	line-height: var(--lh-1-13);
+}
+
+.lh-2-13 {
+	line-height: var(--lh-2-13);
+}
+
+.lh-3-13 {
+	line-height: var(--lh-3-13);
+}
+
+.lh-4-13 {
+	line-height: var(--lh-4-13);
+}
+
+.lh-5-13 {
+	line-height: var(--lh-5-13);
+}
+
+.lh-6-13 {
+	line-height: var(--lh-6-13);
+}
+
+.lh-7-13 {
+	line-height: var(--lh-7-13);
+}
+
+.lh-8-13 {
+	line-height: var(--lh-8-13);
+}
+
+.lh-9-13 {
+	line-height: var(--lh-9-13);
+}
+
+.lh-10-13 {
+	line-height: var(--lh-10-13);
+}
+
+.lh-11-13 {
+	line-height: var(--lh-11-13);
+}
+
+.lh-12-13 {
+	line-height: var(--lh-12-13);
+}
+
+.lh-13-13 {
+	line-height: var(--lh-13-13);
 }

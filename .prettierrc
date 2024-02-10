@@ -9,7 +9,7 @@
 	"arrowParens": "always",
 	"bracketSameLine": false,
 	"useTabs": true,
-	"singleQuote": true,
+	"singleQuote": false,
 	"trailingComma": "none",
 	"printWidth": 100,
 	"plugins": ["prettier-plugin-svelte"],

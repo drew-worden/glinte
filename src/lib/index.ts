@@ -1,5 +1,5 @@
 // Imports
-import Button from './components/Button.svelte'
+import Button from "./components/Button.svelte"
 
 // Exports
 export { Button }

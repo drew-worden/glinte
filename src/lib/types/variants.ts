@@ -1,5 +1,5 @@
 // Types
-type ButtonVariant = 'solid' | 'link' | 'outline' | 'soft' | 'ghost'
+type ButtonVariant = "solid" | "link" | "outline" | "soft" | "ghost"
 
 // Exports
 export type { ButtonVariant }

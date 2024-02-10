@@ -1,4 +1,4 @@
-/* Colors */
+/* Color variables */
 :root {
 	/* Standard */
 	--black: #09090b;
@@ -245,4 +245,1627 @@
 	--rose-7-9: #be123c;
 	--rose-8-9: #9f1239;
 	--rose-9-9: #881337;
+}
+
+/* Standard clases */
+.black {
+	color: var(--black);
+}
+
+.bg-black {
+	background-color: var(--black);
+}
+
+.white {
+	color: var(--white);
+}
+
+.bg-white {
+	background-color: var(--white);
+}
+
+/* Slate classes */
+.slate-1-9 {
+	color: var(--slate-1-9);
+}
+
+.bg-slate-1-9 {
+	background-color: var(--slate-1-9);
+}
+
+.slate-2-9 {
+	color: var(--slate-2-9);
+}
+
+.bg-slate-2-9 {
+	background-color: var(--slate-2-9);
+}
+
+.slate-3-9 {
+	color: var(--slate-3-9);
+}
+
+.bg-slate-3-9 {
+	background-color: var(--slate-3-9);
+}
+
+.slate-4-9 {
+	color: var(--slate-4-9);
+}
+
+.bg-slate-4-9 {
+	background-color: var(--slate-4-9);
+}
+
+.slate-5-9 {
+	color: var(--slate-5-9);
+}
+
+.bg-slate-5-9 {
+	background-color: var(--slate-5-9);
+}
+
+.slate-6-9 {
+	color: var(--slate-6-9);
+}
+
+.bg-slate-6-9 {
+	background-color: var(--slate-6-9);
+}
+
+.slate-7-9 {
+	color: var(--slate-7-9);
+}
+
+.bg-slate-7-9 {
+	background-color: var(--slate-7-9);
+}
+
+.slate-8-9 {
+	color: var(--slate-8-9);
+}
+
+.bg-slate-8-9 {
+	background-color: var(--slate-8-9);
+}
+
+.slate-9-9 {
+	color: var(--slate-9-9);
+}
+
+.bg-slate-9-9 {
+	background-color: var(--slate-9-9);
+}
+
+/* Grey classes */
+.grey-1-9 {
+	color: var(--grey-1-9);
+}
+
+.bg-grey-1-9 {
+	background-color: var(--grey-1-9);
+}
+
+.grey-2-9 {
+	color: var(--grey-2-9);
+}
+
+.bg-grey-2-9 {
+	background-color: var(--grey-2-9);
+}
+
+.grey-3-9 {
+	color: var(--grey-3-9);
+}
+
+.bg-grey-3-9 {
+	background-color: var(--grey-3-9);
+}
+
+.grey-4-9 {
+	color: var(--grey-4-9);
+}
+
+.bg-grey-4-9 {
+	background-color: var(--grey-4-9);
+}
+
+.grey-5-9 {
+	color: var(--grey-5-9);
+}
+
+.bg-grey-5-9 {
+	background-color: var(--grey-5-9);
+}
+
+.grey-6-9 {
+	color: var(--grey-6-9);
+}
+
+.bg-grey-6-9 {
+	background-color: var(--grey-6-9);
+}
+
+.grey-7-9 {
+	color: var(--grey-7-9);
+}
+
+.bg-grey-7-9 {
+	background-color: var(--grey-7-9);
+}
+
+.grey-8-9 {
+	color: var(--grey-8-9);
+}
+
+.bg-grey-8-9 {
+	background-color: var(--grey-8-9);
+}
+
+.grey-9-9 {
+	color: var(--grey-9-9);
+}
+
+.bg-grey-9-9 {
+	background-color: var(--grey-9-9);
+}
+
+/* Zinc clases */
+.zinc-1-9 {
+	color: var(--zinc-1-9);
+}
+
+.bg-zinc-1-9 {
+	background-color: var(--zinc-1-9);
+}
+
+.zinc-2-9 {
+	color: var(--zinc-2-9);
+}
+
+.bg-zinc-2-9 {
+	background-color: var(--zinc-2-9);
+}
+
+.zinc-3-9 {
+	color: var(--zinc-3-9);
+}
+
+.bg-zinc-3-9 {
+	background-color: var(--zinc-3-9);
+}
+
+.zinc-4-9 {
+	color: var(--zinc-4-9);
+}
+
+.bg-zinc-4-9 {
+	background-color: var(--zinc-4-9);
+}
+
+.zinc-5-9 {
+	color: var(--zinc-5-9);
+}
+
+.bg-zinc-5-9 {
+	background-color: var(--zinc-5-9);
+}
+
+.zinc-6-9 {
+	color: var(--zinc-6-9);
+}
+
+.bg-zinc-6-9 {
+	background-color: var(--zinc-6-9);
+}
+
+.zinc-7-9 {
+	color: var(--zinc-7-9);
+}
+
+.bg-zinc-7-9 {
+	background-color: var(--zinc-7-9);
+}
+
+.zinc-8-9 {
+	color: var(--zinc-8-9);
+}
+
+.bg-zinc-8-9 {
+	background-color: var(--zinc-8-9);
+}
+
+.zinc-9-9 {
+	color: var(--zinc-9-9);
+}
+
+.bg-zinc-9-9 {
+	background-color: var(--zinc-9-9);
+}
+
+/* Neutral classes */
+.neutral-1-9 {
+	color: var(--neutral-1-9);
+}
+
+.bg-neutral-1-9 {
+	background-color: var(--neutral-1-9);
+}
+
+.neutral-2-9 {
+	color: var(--neutral-2-9);
+}
+
+.bg-neutral-2-9 {
+	background-color: var(--neutral-2-9);
+}
+
+.neutral-3-9 {
+	color: var(--neutral-3-9);
+}
+
+.bg-neutral-3-9 {
+	background-color: var(--neutral-3-9);
+}
+
+.neutral-4-9 {
+	color: var(--neutral-4-9);
+}
+
+.bg-neutral-4-9 {
+	background-color: var(--neutral-4-9);
+}
+
+.neutral-5-9 {
+	color: var(--neutral-5-9);
+}
+
+.bg-neutral-5-9 {
+	background-color: var(--neutral-5-9);
+}
+
+.neutral-6-9 {
+	color: var(--neutral-6-9);
+}
+
+.bg-neutral-6-9 {
+	background-color: var(--neutral-6-9);
+}
+
+.neutral-7-9 {
+	color: var(--neutral-7-9);
+}
+
+.bg-neutral-7-9 {
+	background-color: var(--neutral-7-9);
+}
+
+.neutral-8-9 {
+	color: var(--neutral-8-9);
+}
+
+.bg-neutral-8-9 {
+	background-color: var(--neutral-8-9);
+}
+
+.neutral-9-9 {
+	color: var(--neutral-9-9);
+}
+
+.bg-neutral-9-9 {
+	background-color: var(--neutral-9-9);
+}
+
+/* Stone classes */
+.stone-1-9 {
+	color: var(--neutral-1-9);
+}
+
+.bg-neutral-1-9 {
+	background-color: var(--neutral-1-9);
+}
+
+.stone-2-9 {
+	color: var(--neutral-2-9);
+}
+
+.bg-neutral-2-9 {
+	background-color: var(--neutral-2-9);
+}
+
+.stone-3-9 {
+	color: var(--neutral-3-9);
+}
+
+.bg-neutral-3-9 {
+	background-color: var(--neutral-3-9);
+}
+
+.stone-4-9 {
+	color: var(--neutral-4-9);
+}
+
+.bg-neutral-4-9 {
+	background-color: var(--neutral-4-9);
+}
+
+.stone-5-9 {
+	color: var(--neutral-5-9);
+}
+
+.bg-neutral-5-9 {
+	background-color: var(--neutral-5-9);
+}
+
+.stone-6-9 {
+	color: var(--neutral-6-9);
+}
+
+.bg-neutral-6-9 {
+	background-color: var(--neutral-6-9);
+}
+
+.stone-7-9 {
+	color: var(--neutral-7-9);
+}
+
+.bg-neutral-7-9 {
+	background-color: var(--neutral-7-9);
+}
+
+.stone-8-9 {
+	color: var(--neutral-8-9);
+}
+
+.bg-neutral-8-9 {
+	background-color: var(--neutral-8-9);
+}
+
+.stone-9-9 {
+	color: var(--neutral-9-9);
+}
+
+.bg-neutral-9-9 {
+	background-color: var(--neutral-9-9);
+}
+
+/* Red clases */
+.red-1-9 {
+	color: var(--red-1-9);
+}
+
+.bg-red-1-9 {
+	background-color: var(--red-1-9);
+}
+
+.red-2-9 {
+	color: var(--red-2-9);
+}
+
+.bg-red-2-9 {
+	background-color: var(--red-2-9);
+}
+
+.red-3-9 {
+	color: var(--red-3-9);
+}
+
+.bg-red-3-9 {
+	background-color: var(--red-3-9);
+}
+
+.red-4-9 {
+	color: var(--red-4-9);
+}
+
+.bg-red-4-9 {
+	background-color: var(--red-4-9);
+}
+
+.red-5-9 {
+	color: var(--red-5-9);
+}
+
+.bg-red-5-9 {
+	background-color: var(--red-5-9);
+}
+
+.red-6-9 {
+	color: var(--red-6-9);
+}
+
+.bg-red-6-9 {
+	background-color: var(--red-6-9);
+}
+
+.red-7-9 {
+	color: var(--red-7-9);
+}
+
+.bg-red-7-9 {
+	background-color: var(--red-7-9);
+}
+
+.red-8-9 {
+	color: var(--red-8-9);
+}
+
+.bg-red-8-9 {
+	background-color: var(--red-8-9);
+}
+
+.red-9-9 {
+	color: var(--red-9-9);
+}
+
+.bg-red-9-9 {
+	background-color: var(--red-9-9);
+}
+
+/* Orange classes */
+.orange-1-9 {
+	color: var(--orange-1-9);
+}
+
+.bg-orange-1-9 {
+	background-color: var(--orange-1-9);
+}
+
+.orange-2-9 {
+	color: var(--orange-2-9);
+}
+
+.bg-orange-2-9 {
+	background-color: var(--orange-2-9);
+}
+
+.orange-3-9 {
+	color: var(--orange-3-9);
+}
+
+.bg-orange-3-9 {
+	background-color: var(--orange-3-9);
+}
+
+.orange-4-9 {
+	color: var(--orange-4-9);
+}
+
+.bg-orange-4-9 {
+	background-color: var(--orange-4-9);
+}
+
+.orange-5-9 {
+	color: var(--orange-5-9);
+}
+
+.bg-orange-5-9 {
+	background-color: var(--orange-5-9);
+}
+
+.orange-6-9 {
+	color: var(--orange-6-9);
+}
+
+.bg-orange-6-9 {
+	background-color: var(--orange-6-9);
+}
+
+.orange-7-9 {
+	color: var(--orange-7-9);
+}
+
+.bg-orange-7-9 {
+	background-color: var(--orange-7-9);
+}
+
+.orange-8-9 {
+	color: var(--orange-8-9);
+}
+
+.bg-orange-8-9 {
+	background-color: var(--orange-8-9);
+}
+
+.orange-9-9 {
+	color: var(--orange-9-9);
+}
+
+.bg-orange-9-9 {
+	background-color: var(--orange-9-9);
+}
+
+/* Amber clases */
+.amber-1-9 {
+	color: var(--amber-1-9);
+}
+
+.bg-amber-1-9 {
+	background-color: var(--amber-1-9);
+}
+
+.amber-2-9 {
+	color: var(--amber-2-9);
+}
+
+.bg-amber-2-9 {
+	background-color: var(--amber-2-9);
+}
+
+.amber-3-9 {
+	color: var(--amber-3-9);
+}
+
+.bg-amber-3-9 {
+	background-color: var(--amber-3-9);
+}
+
+.amber-4-9 {
+	color: var(--amber-4-9);
+}
+
+.bg-amber-4-9 {
+	background-color: var(--amber-4-9);
+}
+
+.amber-5-9 {
+	color: var(--amber-5-9);
+}
+
+.bg-amber-5-9 {
+	background-color: var(--amber-5-9);
+}
+
+.amber-6-9 {
+	color: var(--amber-6-9);
+}
+
+.bg-amber-6-9 {
+	background-color: var(--amber-6-9);
+}
+
+.amber-7-9 {
+	color: var(--amber-7-9);
+}
+
+.bg-amber-7-9 {
+	background-color: var(--amber-7-9);
+}
+
+.amber-8-9 {
+	color: var(--amber-8-9);
+}
+
+.bg-amber-8-9 {
+	background-color: var(--amber-8-9);
+}
+
+.amber-9-9 {
+	color: var(--amber-9-9);
+}
+
+.bg-amber-9-9 {
+	background-color: var(--amber-9-9);
+}
+
+/* Yellow clases */
+.yellow-1-9 {
+	color: var(--yellow-1-9);
+}
+
+.bg-yellow-1-9 {
+	background-color: var(--yellow-1-9);
+}
+
+.yellow-2-9 {
+	color: var(--yellow-2-9);
+}
+
+.bg-yellow-2-9 {
+	background-color: var(--yellow-2-9);
+}
+
+.yellow-3-9 {
+	color: var(--yellow-3-9);
+}
+
+.bg-yellow-3-9 {
+	background-color: var(--yellow-3-9);
+}
+
+.yellow-4-9 {
+	color: var(--yellow-4-9);
+}
+
+.bg-yellow-4-9 {
+	background-color: var(--yellow-4-9);
+}
+
+.yellow-5-9 {
+	color: var(--yellow-5-9);
+}
+
+.bg-yellow-5-9 {
+	background-color: var(--yellow-5-9);
+}
+
+.yellow-6-9 {
+	color: var(--yellow-6-9);
+}
+
+.bg-yellow-6-9 {
+	background-color: var(--yellow-6-9);
+}
+
+.yellow-7-9 {
+	color: var(--yellow-7-9);
+}
+
+.bg-yellow-7-9 {
+	background-color: var(--yellow-7-9);
+}
+
+.yellow-8-9 {
+	color: var(--yellow-8-9);
+}
+
+.bg-yellow-8-9 {
+	background-color: var(--yellow-8-9);
+}
+
+.yellow-9-9 {
+	color: var(--yellow-9-9);
+}
+
+.bg-yellow-9-9 {
+	background-color: var(--yellow-9-9);
+}
+
+/* Lime clases */
+.lime-1-9 {
+	color: var(--lime-1-9);
+}
+
+.bg-lime-1-9 {
+	background-color: var(--lime-1-9);
+}
+
+.lime-2-9 {
+	color: var(--lime-2-9);
+}
+
+.bg-lime-2-9 {
+	background-color: var(--lime-2-9);
+}
+
+.lime-3-9 {
+	color: var(--lime-3-9);
+}
+
+.bg-lime-3-9 {
+	background-color: var(--lime-3-9);
+}
+
+.lime-4-9 {
+	color: var(--lime-4-9);
+}
+
+.bg-lime-4-9 {
+	background-color: var(--lime-4-9);
+}
+
+.lime-5-9 {
+	color: var(--lime-5-9);
+}
+
+.bg-lime-5-9 {
+	background-color: var(--lime-5-9);
+}
+
+.lime-6-9 {
+	color: var(--lime-6-9);
+}
+
+.bg-lime-6-9 {
+	background-color: var(--lime-6-9);
+}
+
+.lime-7-9 {
+	color: var(--lime-7-9);
+}
+
+.bg-lime-7-9 {
+	background-color: var(--lime-7-9);
+}
+
+.lime-8-9 {
+	color: var(--lime-8-9);
+}
+
+.bg-lime-8-9 {
+	background-color: var(--lime-8-9);
+}
+
+.lime-9-9 {
+	color: var(--lime-9-9);
+}
+
+.bg-lime-9-9 {
+	background-color: var(--lime-9-9);
+}
+
+/* Green classes */
+.green-1-9 {
+	color: var(--green-1-9);
+}
+
+.bg-green-1-9 {
+	background-color: var(--green-1-9);
+}
+
+.green-2-9 {
+	color: var(--green-2-9);
+}
+
+.bg-green-2-9 {
+	background-color: var(--green-2-9);
+}
+
+.green-3-9 {
+	color: var(--green-3-9);
+}
+
+.bg-green-3-9 {
+	background-color: var(--green-3-9);
+}
+
+.green-4-9 {
+	color: var(--green-4-9);
+}
+
+.bg-green-4-9 {
+	background-color: var(--green-4-9);
+}
+
+.green-5-9 {
+	color: var(--green-5-9);
+}
+
+.bg-green-5-9 {
+	background-color: var(--green-5-9);
+}
+
+.green-6-9 {
+	color: var(--green-6-9);
+}
+
+.bg-green-6-9 {
+	background-color: var(--green-6-9);
+}
+
+.green-7-9 {
+	color: var(--green-7-9);
+}
+
+.bg-green-7-9 {
+	background-color: var(--green-7-9);
+}
+
+.green-8-9 {
+	color: var(--green-8-9);
+}
+
+.bg-green-8-9 {
+	background-color: var(--green-8-9);
+}
+
+.green-9-9 {
+	color: var(--green-9-9);
+}
+
+.bg-green-9-9 {
+	background-color: var(--green-9-9);
+}
+
+/* Emerald classes */
+.emerald-1-9 {
+	color: var(--emerald-1-9);
+}
+
+.bg-emerald-1-9 {
+	background-color: var(--emerald-1-9);
+}
+
+.emerald-2-9 {
+	color: var(--emerald-2-9);
+}
+
+.bg-emerald-2-9 {
+	background-color: var(--emerald-2-9);
+}
+
+.emerald-3-9 {
+	color: var(--emerald-3-9);
+}
+
+.bg-emerald-3-9 {
+	background-color: var(--emerald-3-9);
+}
+
+.emerald-4-9 {
+	color: var(--emerald-4-9);
+}
+
+.bg-emerald-4-9 {
+	background-color: var(--emerald-4-9);
+}
+
+.emerald-5-9 {
+	color: var(--emerald-5-9);
+}
+
+.bg-emerald-5-9 {
+	background-color: var(--emerald-5-9);
+}
+
+.emerald-6-9 {
+	color: var(--emerald-6-9);
+}
+
+.bg-emerald-6-9 {
+	background-color: var(--emerald-6-9);
+}
+
+.emerald-7-9 {
+	color: var(--emerald-7-9);
+}
+
+.bg-emerald-7-9 {
+	background-color: var(--emerald-7-9);
+}
+
+.emerald-8-9 {
+	color: var(--emerald-8-9);
+}
+
+.bg-emerald-8-9 {
+	background-color: var(--emerald-8-9);
+}
+
+.emerald-9-9 {
+	color: var(--emerald-9-9);
+}
+
+.bg-emerald-9-9 {
+	background-color: var(--emerald-9-9);
+}
+
+/* Teal classes */
+.teal-1-9 {
+	color: var(--teal-1-9);
+}
+
+.bg-teal-1-9 {
+	background-color: var(--teal-1-9);
+}
+
+.teal-2-9 {
+	color: var(--teal-2-9);
+}
+
+.bg-teal-2-9 {
+	background-color: var(--teal-2-9);
+}
+
+.teal-3-9 {
+	color: var(--teal-3-9);
+}
+
+.bg-teal-3-9 {
+	background-color: var(--teal-3-9);
+}
+
+.teal-4-9 {
+	color: var(--teal-4-9);
+}
+
+.bg-teal-4-9 {
+	background-color: var(--teal-4-9);
+}
+
+.teal-5-9 {
+	color: var(--teal-5-9);
+}
+
+.bg-teal-5-9 {
+	background-color: var(--teal-5-9);
+}
+
+.teal-6-9 {
+	color: var(--teal-6-9);
+}
+
+.bg-teal-6-9 {
+	background-color: var(--teal-6-9);
+}
+
+.teal-7-9 {
+	color: var(--teal-7-9);
+}
+
+.bg-teal-7-9 {
+	background-color: var(--teal-7-9);
+}
+
+.teal-8-9 {
+	color: var(--teal-8-9);
+}
+
+.bg-teal-8-9 {
+	background-color: var(--teal-8-9);
+}
+
+.teal-9-9 {
+	color: var(--teal-9-9);
+}
+
+.bg-teal-9-9 {
+	background-color: var(--teal-9-9);
+}
+
+/* Cyan classes */
+.cyan-1-9 {
+	color: var(--cyan-1-9);
+}
+
+.bg-cyan-1-9 {
+	background-color: var(--cyan-1-9);
+}
+
+.cyan-2-9 {
+	color: var(--cyan-2-9);
+}
+
+.bg-cyan-2-9 {
+	background-color: var(--cyan-2-9);
+}
+
+.cyan-3-9 {
+	color: var(--cyan-3-9);
+}
+
+.bg-cyan-3-9 {
+	background-color: var(--cyan-3-9);
+}
+
+.cyan-4-9 {
+	color: var(--cyan-4-9);
+}
+
+.bg-cyan-4-9 {
+	background-color: var(--cyan-4-9);
+}
+
+.cyan-5-9 {
+	color: var(--cyan-5-9);
+}
+
+.bg-cyan-5-9 {
+	background-color: var(--cyan-5-9);
+}
+
+.cyan-6-9 {
+	color: var(--cyan-6-9);
+}
+
+.bg-cyan-6-9 {
+	background-color: var(--cyan-6-9);
+}
+
+.cyan-7-9 {
+	color: var(--cyan-7-9);
+}
+
+.bg-cyan-7-9 {
+	background-color: var(--cyan-7-9);
+}
+
+.cyan-8-9 {
+	color: var(--cyan-8-9);
+}
+
+.bg-cyan-8-9 {
+	background-color: var(--cyan-8-9);
+}
+
+.cyan-9-9 {
+	color: var(--cyan-9-9);
+}
+
+.bg-cyan-9-9 {
+	background-color: var(--cyan-9-9);
+}
+
+/* Sky clases */
+.sky-1-9 {
+	color: var(--sky-1-9);
+}
+
+.bg-sky-1-9 {
+	background-color: var(--sky-1-9);
+}
+
+.sky-2-9 {
+	color: var(--sky-2-9);
+}
+
+.bg-sky-2-9 {
+	background-color: var(--sky-2-9);
+}
+
+.sky-3-9 {
+	color: var(--sky-3-9);
+}
+
+.bg-sky-3-9 {
+	background-color: var(--sky-3-9);
+}
+
+.sky-4-9 {
+	color: var(--sky-4-9);
+}
+
+.bg-sky-4-9 {
+	background-color: var(--sky-4-9);
+}
+
+.sky-5-9 {
+	color: var(--sky-5-9);
+}
+
+.bg-sky-5-9 {
+	background-color: var(--sky-5-9);
+}
+
+.sky-6-9 {
+	color: var(--sky-6-9);
+}
+
+.bg-sky-6-9 {
+	background-color: var(--sky-6-9);
+}
+
+.sky-7-9 {
+	color: var(--sky-7-9);
+}
+
+.bg-sky-7-9 {
+	background-color: var(--sky-7-9);
+}
+
+.sky-8-9 {
+	color: var(--sky-8-9);
+}
+
+.bg-sky-8-9 {
+	background-color: var(--sky-8-9);
+}
+
+.sky-9-9 {
+	color: var(--sky-9-9);
+}
+
+.bg-sky-9-9 {
+	background-color: var(--sky-9-9);
+}
+
+/* Blue classes */
+.blue-1-9 {
+	color: var(--blue-1-9);
+}
+
+.bg-blue-1-9 {
+	background-color: var(--blue-1-9);
+}
+
+.blue-2-9 {
+	color: var(--blue-2-9);
+}
+
+.bg-blue-2-9 {
+	background-color: var(--blue-2-9);
+}
+
+.blue-3-9 {
+	color: var(--blue-3-9);
+}
+
+.bg-blue-3-9 {
+	background-color: var(--blue-3-9);
+}
+
+.blue-4-9 {
+	color: var(--blue-4-9);
+}
+
+.bg-blue-4-9 {
+	background-color: var(--blue-4-9);
+}
+
+.blue-5-9 {
+	color: var(--blue-5-9);
+}
+
+.bg-blue-5-9 {
+	background-color: var(--blue-5-9);
+}
+
+.blue-6-9 {
+	color: var(--blue-6-9);
+}
+
+.bg-blue-6-9 {
+	background-color: var(--blue-6-9);
+}
+
+.blue-7-9 {
+	color: var(--blue-7-9);
+}
+
+.bg-blue-7-9 {
+	background-color: var(--blue-7-9);
+}
+
+.blue-8-9 {
+	color: var(--blue-8-9);
+}
+
+.bg-blue-8-9 {
+	background-color: var(--blue-8-9);
+}
+
+.blue-9-9 {
+	color: var(--blue-9-9);
+}
+
+.bg-blue-9-9 {
+	background-color: var(--blue-9-9);
+}
+
+/* Indigo classes*/
+.indigo-1-9 {
+	color: var(--indigo-1-9);
+}
+
+.bg-indigo-1-9 {
+	background-color: var(--indigo-1-9);
+}
+
+.indigo-2-9 {
+	color: var(--indigo-2-9);
+}
+
+.bg-indigo-2-9 {
+	background-color: var(--indigo-2-9);
+}
+
+.indigo-3-9 {
+	color: var(--indigo-3-9);
+}
+
+.bg-indigo-3-9 {
+	background-color: var(--indigo-3-9);
+}
+
+.indigo-4-9 {
+	color: var(--indigo-4-9);
+}
+
+.bg-indigo-4-9 {
+	background-color: var(--indigo-4-9);
+}
+
+.indigo-5-9 {
+	color: var(--indigo-5-9);
+}
+
+.bg-indigo-5-9 {
+	background-color: var(--indigo-5-9);
+}
+
+.indigo-6-9 {
+	color: var(--indigo-6-9);
+}
+
+.bg-indigo-6-9 {
+	background-color: var(--indigo-6-9);
+}
+
+.indigo-7-9 {
+	color: var(--indigo-7-9);
+}
+
+.bg-indigo-7-9 {
+	background-color: var(--indigo-7-9);
+}
+
+.indigo-8-9 {
+	color: var(--indigo-8-9);
+}
+
+.bg-indigo-8-9 {
+	background-color: var(--indigo-8-9);
+}
+
+.indigo-9-9 {
+	color: var(--indigo-9-9);
+}
+
+.bg-indigo-9-9 {
+	background-color: var(--indigo-9-9);
+}
+
+/* Violet classes*/
+.violet-1-9 {
+	color: var(--violet-1-9);
+}
+
+.bg-violet-1-9 {
+	background-color: var(--violet-1-9);
+}
+
+.violet-2-9 {
+	color: var(--violet-2-9);
+}
+
+.bg-violet-2-9 {
+	background-color: var(--violet-2-9);
+}
+
+.violet-3-9 {
+	color: var(--violet-3-9);
+}
+
+.bg-violet-3-9 {
+	background-color: var(--violet-3-9);
+}
+
+.violet-4-9 {
+	color: var(--violet-4-9);
+}
+
+.bg-violet-4-9 {
+	background-color: var(--violet-4-9);
+}
+
+.violet-5-9 {
+	color: var(--violet-5-9);
+}
+
+.bg-violet-5-9 {
+	background-color: var(--violet-5-9);
+}
+
+.violet-6-9 {
+	color: var(--violet-6-9);
+}
+
+.bg-violet-6-9 {
+	background-color: var(--violet-6-9);
+}
+
+.violet-7-9 {
+	color: var(--violet-7-9);
+}
+
+.bg-violet-7-9 {
+	background-color: var(--violet-7-9);
+}
+
+.violet-8-9 {
+	color: var(--violet-8-9);
+}
+
+.bg-violet-8-9 {
+	background-color: var(--violet-8-9);
+}
+
+.violet-9-9 {
+	color: var(--violet-9-9);
+}
+
+.bg-violet-9-9 {
+	background-color: var(--violet-9-9);
+}
+
+/* Purple classes */
+.purple-1-9 {
+	color: var(--purple-1-9);
+}
+
+.bg-purple-1-9 {
+	background-color: var(--purple-1-9);
+}
+
+.purple-2-9 {
+	color: var(--purple-2-9);
+}
+
+.bg-purple-2-9 {
+	background-color: var(--purple-2-9);
+}
+
+.purple-3-9 {
+	color: var(--purple-3-9);
+}
+
+.bg-purple-3-9 {
+	background-color: var(--purple-3-9);
+}
+
+.purple-4-9 {
+	color: var(--purple-4-9);
+}
+
+.bg-purple-4-9 {
+	background-color: var(--purple-4-9);
+}
+
+.purple-5-9 {
+	color: var(--purple-5-9);
+}
+
+.bg-purple-5-9 {
+	background-color: var(--purple-5-9);
+}
+
+.purple-6-9 {
+	color: var(--purple-6-9);
+}
+
+.bg-purple-6-9 {
+	background-color: var(--purple-6-9);
+}
+
+.purple-7-9 {
+	color: var(--purple-7-9);
+}
+
+.bg-purple-7-9 {
+	background-color: var(--purple-7-9);
+}
+
+.purple-8-9 {
+	color: var(--purple-8-9);
+}
+
+.bg-purple-8-9 {
+	background-color: var(--purple-8-9);
+}
+
+.purple-9-9 {
+	color: var(--purple-9-9);
+}
+
+.bg-purple-9-9 {
+	background-color: var(--purple-9-9);
+}
+
+/* Fuchsia classes*/
+.fuchsia-1-9 {
+	color: var(--fuchsia-1-9);
+}
+
+.bg-fuchsia-1-9 {
+	background-color: var(--fuchsia-1-9);
+}
+
+.fuchsia-2-9 {
+	color: var(--fuchsia-2-9);
+}
+
+.bg-fuchsia-2-9 {
+	background-color: var(--fuchsia-2-9);
+}
+
+.fuchsia-3-9 {
+	color: var(--fuchsia-3-9);
+}
+
+.bg-fuchsia-3-9 {
+	background-color: var(--fuchsia-3-9);
+}
+
+.fuchsia-4-9 {
+	color: var(--fuchsia-4-9);
+}
+
+.bg-fuchsia-4-9 {
+	background-color: var(--fuchsia-4-9);
+}
+
+.fuchsia-5-9 {
+	color: var(--fuchsia-5-9);
+}
+
+.bg-fuchsia-5-9 {
+	background-color: var(--fuchsia-5-9);
+}
+
+.fuchsia-6-9 {
+	color: var(--fuchsia-6-9);
+}
+
+.bg-fuchsia-6-9 {
+	background-color: var(--fuchsia-6-9);
+}
+
+.fuchsia-7-9 {
+	color: var(--fuchsia-7-9);
+}
+
+.bg-fuchsia-7-9 {
+	background-color: var(--fuchsia-7-9);
+}
+
+.fuchsia-8-9 {
+	color: var(--fuchsia-8-9);
+}
+
+.bg-fuchsia-8-9 {
+	background-color: var(--fuchsia-8-9);
+}
+
+.fuchsia-9-9 {
+	color: var(--fuchsia-9-9);
+}
+
+.bg-fuchsia-9-9 {
+	background-color: var(--fuchsia-9-9);
+}
+
+/* Pink classes */
+.pink-1-9 {
+	color: var(--pink-1-9);
+}
+
+.bg-pink-1-9 {
+	background-color: var(--pink-1-9);
+}
+
+.pink-2-9 {
+	color: var(--pink-2-9);
+}
+
+.bg-pink-2-9 {
+	background-color: var(--pink-2-9);
+}
+
+.pink-3-9 {
+	color: var(--pink-3-9);
+}
+
+.bg-pink-3-9 {
+	background-color: var(--pink-3-9);
+}
+
+.pink-4-9 {
+	color: var(--pink-4-9);
+}
+
+.bg-pink-4-9 {
+	background-color: var(--pink-4-9);
+}
+
+.pink-5-9 {
+	color: var(--pink-5-9);
+}
+
+.bg-pink-5-9 {
+	background-color: var(--pink-5-9);
+}
+
+.pink-6-9 {
+	color: var(--pink-6-9);
+}
+
+.bg-pink-6-9 {
+	background-color: var(--pink-6-9);
+}
+
+.pink-7-9 {
+	color: var(--pink-7-9);
+}
+
+.bg-pink-7-9 {
+	background-color: var(--pink-7-9);
+}
+
+.pink-8-9 {
+	color: var(--pink-8-9);
+}
+
+.bg-pink-8-9 {
+	background-color: var(--pink-8-9);
+}
+
+.pink-9-9 {
+	color: var(--pink-9-9);
+}
+
+.bg-pink-9-9 {
+	background-color: var(--pink-9-9);
+}
+
+/* Rose classes */
+.rose-1-9 {
+	color: var(--rose-1-9);
+}
+
+.bg-rose-1-9 {
+	background-color: var(--rose-1-9);
+}
+
+.rose-2-9 {
+	color: var(--rose-2-9);
+}
+
+.bg-rose-2-9 {
+	background-color: var(--rose-2-9);
+}
+
+.rose-3-9 {
+	color: var(--rose-3-9);
+}
+
+.bg-rose-3-9 {
+	background-color: var(--rose-3-9);
+}
+
+.rose-4-9 {
+	color: var(--rose-4-9);
+}
+
+.bg-rose-4-9 {
+	background-color: var(--rose-4-9);
+}
+
+.rose-5-9 {
+	color: var(--rose-5-9);
+}
+
+.bg-rose-5-9 {
+	background-color: var(--rose-5-9);
+}
+
+.rose-6-9 {
+	color: var(--rose-6-9);
+}
+
+.bg-rose-6-9 {
+	background-color: var(--rose-6-9);
+}
+
+.rose-7-9 {
+	color: var(--rose-7-9);
+}
+
+.bg-rose-7-9 {
+	background-color: var(--rose-7-9);
+}
+
+.rose-8-9 {
+	color: var(--rose-8-9);
+}
+
+.bg-rose-8-9 {
+	background-color: var(--rose-8-9);
+}
+
+.rose-9-9 {
+	color: var(--rose-9-9);
+}
+
+.bg-rose-9-9 {
+	background-color: var(--rose-9-9);
 }

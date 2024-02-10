@@ -1,4 +1,4 @@
-/* Border radius sizes */
+/* Border radius variables */
 :root {
 	--br-1-7: 2px;
 	--br-2-7: 4px;
@@ -8,4 +8,37 @@
 	--br-6-7: 16px;
 	--br-7-7: 24px;
 	--br-full: 9999px;
+}
+
+/* Border radius classes */
+.br-1-7 {
+	border-radius: var(--br-1-7);
+}
+
+.br-2-7 {
+	border-radius: var(--br-2-7);
+}
+
+.br-3-7 {
+	border-radius: var(--br-3-7);
+}
+
+.br-4-7 {
+	border-radius: var(--br-4-7);
+}
+
+.br-5-7 {
+	border-radius: var(--br-5-7);
+}
+
+.br-6-7 {
+	border-radius: var(--br-6-7);
+}
+
+.br-7-7 {
+	border-radius: var(--br-7-7);
+}
+
+.br-full {
+	border-radius: var(--br-full);
 }

@@ -1,14 +1,14 @@
 <script lang="ts">
 	// Imports
-	import { Button } from '$lib/index.js'
-	import type { Color } from '$lib/types/styles.js'
-	import type { ButtonVariant } from '$lib/types/variants.js'
+	import { Button } from "$lib/index.js"
+	import type { Color } from "$lib/types/styles.js"
+	import type { ButtonVariant } from "$lib/types/variants.js"
 
 	// State
-	let color: Color = 'black'
-	let backgroundColor: Color = 'white'
-	let variant: ButtonVariant = 'solid'
-	let text = 'Button'
+	let color: Color = "black"
+	let backgroundColor: Color = "white"
+	let variant: ButtonVariant = "solid"
+	let text = "Button"
 </script>
 
 <input
@@ -36,5 +36,5 @@
 	color="{color}"
 	backgroundColor="{backgroundColor}"
 	variant="{variant}"
-	text="{text}"
+	label="{text}"
 />
