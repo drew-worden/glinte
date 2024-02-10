@@ -1,6 +1,6 @@
 <script lang="ts">
-    // Imports
-    import {Button} from "$lib/index.js"
+	// Imports
+	import { Button } from '$lib/index.js'
 </script>
 
-<Button/>
+<Button />
